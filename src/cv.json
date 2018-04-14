@@ -1,0 +1,541 @@
+{
+    "id": "1",
+    "apiVersion": "0.0.1",
+    "personalInformation": {
+        "name": "Winston Smith",
+        "label": "Everyman",
+        "summary": "",
+        "location": {
+            "address": "101 Hard Road",
+            "postalCode": "35000",
+            "city": "London",
+            "countryCode": "UK",
+            "region": "South East"
+        },
+        "phone": {
+            "home": "+44 020 7946 0000"
+        },
+        "email": "winston.smith@example.com",
+        "website": "http://wsmith.example.com",
+        "picture": "",
+        "sex": "male",
+        "dateOfBirth": "1945-05-08T02:00:00Z",
+        "nationalities": [
+            "Britannique"
+        ],
+        "profiles": []
+    },
+    "work": [
+        {
+            "company": "Records Department of the Ministry of Truth",
+            "position": "Clerk",
+            "website": "http://mot.example.com/department/records",
+            "startDate": "1975-01-01",
+            "summary": "Lorem ipsum...",
+            "highlights": [
+                "BLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
+                "Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue.",
+                "Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit."
+            ],
+            "projects": [
+                {
+                    "company": "Records Department of the Ministry of Truth",
+                    "position": "Developer",
+                    "website": "https://www.pagesjaunes.fr",
+                    "startDate": "2015-01-10",
+                    "summary": "Rewriting history.",
+                    "keywords": [
+                        "big data",
+                        "scala",
+                        "apache spark",
+                        "apache kafka",
+                        "mongodb",
+                        "bash",
+                        "python",
+                        "java",
+                        "elasticsearch"
+                    ],
+                    "highlights": [
+                        "Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar. Nulla sollicitudin. Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae ligula."
+                    ]
+                }
+            ]
+        }
+    ],
+    "volunteer": [],
+    "education": [],
+    "awards": [],
+    "publications": [],
+    "personalSkills": {
+        "languages": {
+            "motherTongues": [
+                "English"
+            ],
+            "otherLanguages": []
+        },
+        "communicationSkills": [],
+        "organisationalSkills": [],
+        "jobRelatedSkills": [],
+        "digitalSkills": [
+            {
+                "name": "Java",
+                "level": 9,
+                "keywords": [
+                    "programming language"
+                ],
+                "url": "https://www.java.com/"
+            },
+            {
+                "name": "Scala",
+                "level": 7,
+                "keywords": [
+                    "programming language"
+                ],
+                "url": "https://www.scala-lang.org/"
+            },
+            {
+                "name": "Python",
+                "level": 7,
+                "keywords": [
+                    "programming language"
+                ],
+                "description": "Python is an interpreted high-level programming language for general-purpose programming.",
+                "url": "https://www.python.org/"
+            },
+            {
+                "name": "JavaScript",
+                "level": 7,
+                "keywords": [
+                    "programming language"
+                ],
+                "url": "https://developer.mozilla.org/docs/Web/JavaScript"
+            },
+            {
+                "name": "Clojure",
+                "level": 7,
+                "keywords": [
+                    "programming language"
+                ],
+                "url": "https://clojure.org/"
+            },
+            {
+                "name": "PHP",
+                "level": 7,
+                "keywords": [
+                    "programming language"
+                ],
+                "url": "https://www.php.net/"
+            },
+            {
+                "name": "C#",
+                "level": 7,
+                "keywords": [
+                    "programming language"
+                ],
+                "url": "https://docs.microsoft.com/fr-fr/dotnet/csharp/"
+            },
+            {
+                "name": "Bash",
+                "keywords": [
+                    "command language",
+                    "shell",
+                    "scripting"
+                ],
+                "description": "Bash is a command processor that typically runs in a text window, where the user types commands that cause actions.",
+                "level": 8,
+                "url": "https://www.gnu.org/software/bash/"
+            },
+            {
+                "name": "XSLT",
+                "keywords": [
+                    "xml",
+                    "stylesheets",
+                    "programming language",
+                    "functional",
+                    "declarative"
+                ],
+                "description": "XSLT is a language for transforming XML documents into other XML documents",
+                "level": 7,
+                "url": "https://www.w3.org/standards/xml/transformation"
+            },
+            {
+                "name": "Linux",
+                "level": "7",
+                "keywords": [
+                    "operating system",
+                    "debian",
+                    "ubuntu",
+                    "redhat"
+                ],
+                "url": "https://www.linuxfoundation.org"
+            },
+            {
+                "name": "Markdown",
+                "keywords": [
+                    "markup language",
+                    "documentation"
+                ],
+                "description": "Markdown is a lightweight markup language with plain text formatting syntax.",
+                "level": 8,
+                "url": "http://daringfireball.net/projects/markdown"
+            },
+            {
+                "name": "LaTeX",
+                "keywords": [
+                    "documentation"
+                ],
+                "description": "Latex is a document preparation system.",
+                "url": "https://latex-project.org/",
+                "level": 6
+            },
+            {
+                "name": "SQL",
+                "keywords": [
+                    "structured query language",
+                    "database",
+                    "oracle",
+                    "mysql",
+                    "apache derby"
+                ],
+                "description": "SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system",
+                "url": "",
+                "level": 3
+            },
+            {
+                "name": "Apache Spark",
+                "keywords": [
+                    "framework",
+                    "big data",
+                    "scala"
+                ],
+                "description": "Apache Spark™ is a fast and general engine for large-scale data processing.",
+                "url": "https://spark.apache.org/",
+                "level": 7
+            },
+            {
+                "name": "Powershell",
+                "keywords": [
+                    "command language",
+                    "scripting"
+                ],
+                "description": "PowerShell is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and associated scripting language.",
+                "url": "https://docs.microsoft.com/en-us/powershell/",
+                "level": 1
+            },
+            {
+                "name": "Pig",
+                "keywords": [
+                    "big data"
+                ],
+                "description": "Apache Pig is a high-level platform for creating programs that run on Apache Hadoop.",
+                "url": "https://pig.apache.org/",
+                "level": 1
+            },
+            {
+                "name": "Scalatest",
+                "keywords": [
+                    "scala",
+                    "library",
+                    "testing"
+                ],
+                "description": "ScalaTest is the most flexible and most popular testing tool in the Scala ecosystem.",
+                "url": "http://www.scalatest.org/",
+                "level": 6
+            },
+            {
+                "name": "elastic4s",
+                "keywords": [
+                    "scala",
+                    "library",
+                    "elasticsearch",
+                    "big data",
+                    "document indexing"
+                ],
+                "description": "Elasticsearch Scala Client - Non Blocking, Type Safe, HTTP, TCP",
+                "url": "https://github.com/sksamuel/elastic4s",
+                "level": 7
+            },
+            {
+                "name": "Akka",
+                "keywords": [
+                    "framework",
+                    "java",
+                    "scala"
+                ],
+                "description": "Akka is the implementation of the Actor Model on the JVM.",
+                "url": "http://akka.io/",
+                "level": 6
+            },
+            {
+                "name": "React",
+                "keywords": [
+                    "javascript",
+                    "framework",
+                    "user interface",
+                    "front end"
+                ],
+                "description": "A JavaScript library for building user interfaces.",
+                "url": "https://reactjs.org/",
+                "level": 7
+            },
+            {
+                "name": "Visual Studio Code",
+                "keywords": [
+                    "integrated development environment",
+                    "code editor",
+                    "programming tool"
+                ],
+                "description": "Code editor, similar to atom or sublime text",
+                "url": "https://code.visualstudio.com/",
+                "level": 7
+            },
+            {
+                "name": "Apache Kafka",
+                "keywords": [
+                    "big data",
+                    "message broker"
+                ],
+                "description": "Apache Kafka is a distributed streaming platform.",
+                "url": "https://kafka.apache.org/",
+                "level": 7
+            },
+            {
+                "name": "Gobblin",
+                "keywords": [
+                    "big data",
+                    "java"
+                ],
+                "description": "Gobblin is a distributed big data integration framework (ingestion, replication, compliance, retention) for batch and streaming systems. Gobblin features integrations with Apache Hadoop, Apache Kafka, Salesforce, S3, MySQL, Google etc.",
+                "link": "https://github.com/apache/incubator-gobblin",
+                "level": 6
+            },
+            {
+                "name": "Elastic Search",
+                "keywords": [
+                    "big data",
+                    "distributed search engine"
+                ],
+                "description": "Elasticsearch is a distributed, RESTful search and analytics engine capable of solving a growing number of use cases.",
+                "link": "https://www.elastic.co/",
+                "level": 6
+            },
+            {
+                "name": "MongoDB",
+                "keywords": [
+                    "big data",
+                    "javascript",
+                    "document oriented",
+                    "database"
+                ],
+                "description": "MongoDB is a free and open-source cross-platform document-oriented database program.",
+                "url": "https://www.mongodb.com/",
+                "level": 6
+            },
+            {
+                "name": "Apache Hadoop",
+                "keywords": [
+                    "big data",
+                    "hdfs",
+                    "distributed file system"
+                ],
+                "description": "Open-source software for reliable, scalable, distributed computing.",
+                "url": "http://hadoop.apache.org/",
+                "level": 5
+            },
+            {
+                "name": "Semantic UI React",
+                "keywords": [
+                    "framework",
+                    "css",
+                    "javascript",
+                    "user interface",
+                    "front end"
+                ],
+                "description": "Semantic UI React is the official React integration for Semantic UI.",
+                "url": "https://react.semantic-ui.com/",
+                "level": 7
+            },
+            {
+                "name": "SBT",
+                "keywords": [
+                    "scala",
+                    "build",
+                    "tool"
+                ],
+                "description": "sbt (Simple Build Tool), the interactive build tool.",
+                "url": "https://www.scala-sbt.org/",
+                "level": 7
+            },
+            {
+                "name": "Jenkins",
+                "keywords": [
+                    "continuous integration",
+                    "automation server",
+                    "tool"
+                ],
+                "description": "The leading open source automation server to support building, deploying and automating any project.",
+                "url": "https://jenkins.io/",
+                "level": 7
+            },
+            {
+                "name": "Kibana",
+                "keywords": [
+                    "tool",
+                    "visualization",
+                    "elasticsearch",
+                    "big data"
+                ],
+                "description": "Kibana lets you visualize your Elasticsearch data and navigate the Elastic Stack.",
+                "url": "https://www.elastic.co/products/kibana",
+                "level": 7
+            },
+            {
+                "name": "IntelliJ IDEA",
+                "keywords": [
+                    "java",
+                    "scala",
+                    "integrated development environment",
+                    "code editor"
+                ],
+                "description": "Capable and ergonomic IDE for the JVM.",
+                "url": "https://www.jetbrains.com/idea/",
+                "level": 7
+            },
+            {
+                "name": "SonarQube",
+                "keywords": [
+                    "java",
+                    "tool"
+                ],
+                "description": "SonarQube provides the capability to not only show health of an application but also to highlight issues newly introduced.",
+                "url": "https://www.sonarqube.org/",
+                "level": 1
+            },
+            {
+                "name": "Eclipse",
+                "keywords": [
+                    "java",
+                    "integrated development environment",
+                    "code editor"
+                ],
+                "description": "The essential tools for any Java developer, including a Java IDE, a Git client, XML Editor, Mylyn, Maven and Gradle integration.",
+                "link": "https://www.eclipse.org/ide/",
+                "level": 5
+            },
+            {
+                "name": "JUnit",
+                "keywords": [
+                    "java",
+                    "testing",
+                    "framework"
+                ],
+                "description": "JUnit is a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks.",
+                "url": "https://junit.org/",
+                "level": 6
+            },
+            {
+                "name": "Groovy",
+                "keywords": [
+                    "programming language",
+                    "jvm"
+                ],
+                "description": "Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax.",
+                "url": "http://groovy-lang.org/",
+                "level": 6
+            },
+            {
+                "name": "Kotlin",
+                "keywords": [
+                    "programming language",
+                    "jvm"
+                ],
+                "description": "Statically typed programming language for modern multiplatform applications",
+                "url": "https://kotlinlang.org/",
+                "level": 4
+            },
+            {
+                "name": "Gradle",
+                "keywords": [
+                    "build",
+                    "tool"
+                ],
+                "description": "Gradle helps teams build, automate and deliver better software, faster.",
+                "url": "https://gradle.org/",
+                "level": 5
+            },
+            {
+                "name": "Maven",
+                "keywords": [
+                    "java",
+                    "build",
+                    "tool"
+                ],
+                "description": "Apache Maven is a software project management and comprehension tool.",
+                "url": "https://maven.apache.org/",
+                "level": 7
+            },
+            {
+                "name": "Lodash",
+                "keywords": [
+                    "framework",
+                    "javascript"
+                ],
+                "description": "A modern JavaScript utility library delivering modularity, performance & extras.",
+                "url": "https://lodash.com/",
+                "level": 7
+            },
+            {
+                "name": "Flow",
+                "keywords": [
+                    "framework",
+                    "javascript"
+                ],
+                "description": "Flow is a static type checker for JavaScript.",
+                "url": "https://flow.org/",
+                "level": 8
+            },
+            {
+                "name": "Yarn",
+                "keywords": [
+                    "javascript",
+                    "framework",
+                    "dependency management"
+                ],
+                "description": "Fast, reliable, and secure dependency management.",
+                "url": "https://yarnpkg.com/en/",
+                "level": 5
+            },
+            {
+                "name": "Git",
+                "keywords": [
+                    "version control system",
+                    "tool"
+                ],
+                "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
+                "url": "https://git-scm.com/",
+                "level": 5
+            }
+        ],
+        "otherSkills": [],
+        "drivingLicence": []
+    },
+    "interests": [
+        {
+            "name": "Running",
+            "keywords": [
+                "health",
+                "fitness",
+                "mindfulness"
+            ]
+        },
+        {
+            "name": "Music",
+            "keywords": [
+                "guitar",
+                "composition",
+                "computer"
+            ]
+        }
+    ],
+    "references": []
+}
