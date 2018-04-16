@@ -14,9 +14,11 @@ rowInfo name value =
         ]
 
 
-phoneRowInfo : Dict String String -> Html msg
+phoneRowInfo : List Model.PhoneDetails -> Html msg
 phoneRowInfo phoneDetails =
-    rowInfo "Téléphone" (Maybe.withDefault "" (Dict.get "mobile" phoneDetails))
+    div []
+        [ rowInfo "Téléphone" (String.join "," (List.map (\phoneDetail -> "(" ++ phoneDetail.label ++ ") " ++ phoneDetail.number) phoneDetails))
+        ]
 
 
 locationRowInfo : Dict String String -> Html msg
@@ -32,9 +34,11 @@ personalInformationSection personalInformation =
     section []
         [ h2 [] [ text "Informations personnelles" ]
         , rowInfo "Nom" personalInformation.name
+        , rowInfo "Label" personalInformation.label
+        , rowInfo "Summary" personalInformation.summary
         , rowInfo "E-mail" personalInformation.email
         , rowInfo "Date de naissance" personalInformation.dateOfBirth
-        , rowInfo "Nationalité(s)" (toString personalInformation.nationalities)
+        , rowInfo "Nationalité(s)" (String.join ", " personalInformation.nationalities)
         , phoneRowInfo personalInformation.phone
         , locationRowInfo personalInformation.location
 
