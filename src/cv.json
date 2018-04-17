@@ -44,7 +44,7 @@
                 {
                     "company": "Records Department of the Ministry of Truth",
                     "position": "Developer",
-                    "website": "https://www.pagesjaunes.fr",
+                    "website": "https://mot.example.com/department/records",
                     "startDate": "2015-01-10",
                     "summary": "Rewriting history.",
                     "keywords": [
